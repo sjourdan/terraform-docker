@@ -1,5 +1,7 @@
 # Terraform (Docker)
 
+[![Circle CI](https://circleci.com/gh/sjourdan/terraform-docker.svg?style=shield)](https://circleci.com/gh/sjourdan/terraform-docker)
+
 ## Usage
 
 Easy:
