@@ -7,4 +7,4 @@ dependencies:
     - make build
 test:
   override:
-    - docker run -d sjourdan/terraform
+    - docker run -d sjourdan/terraform version
