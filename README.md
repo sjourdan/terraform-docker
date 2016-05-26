@@ -16,6 +16,10 @@ Easy:
 $ docker run -it --rm -v `pwd`:/data sjourdan/terraform:<version>
 ```
 
+## Known Bugs
+
+- `0.6.16` doesn't work because of [this issue](https://github.com/hashicorp/terraform/issues/6714)
+
 ## Build
 
 ```
