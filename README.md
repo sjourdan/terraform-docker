@@ -1,6 +1,13 @@
-# Terraform (Docker)
+# Terraform (Docker Container)
 
 [![Circle CI](https://circleci.com/gh/sjourdan/terraform-docker.svg?style=shield)](https://circleci.com/gh/sjourdan/terraform-docker)
+
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
+
+This container exists because I need to easily and quickly switch between various specific versions of Terraform for different projects. 
+
+- [Terraform Homepage](https://www.terraform.io/)
+- [Terraform on GitHub](https://github.com/hashicorp/terraform)
 
 ## Supported tags
 
