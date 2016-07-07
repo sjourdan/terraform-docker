@@ -6,8 +6,8 @@ Terraform is a tool for building, changing, and versioning infrastructure safely
 
 This container exists because I need to easily and quickly switch between various specific versions of Terraform for different projects, and use the same linux binary whatever platform I'm using.
 
-- [Terraform Homepage](https://www.terraform.io/)
-- [Terraform on GitHub](https://github.com/hashicorp/terraform)
+- [Terraform Homepage](https://www.terraform.io/) and [Releases](https://releases.hashicorp.com/terraform/).
+- [Terraform on GitHub](https://github.com/hashicorp/terraform) and [Changelog](https://github.com/hashicorp/terraform/blob/master/CHANGELOG.md)
 
 ## Supported tags
 
