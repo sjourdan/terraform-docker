@@ -7,4 +7,4 @@ dependencies:
     - make build
 test:
   override:
-    - docker run --rm sjourdan/terraform version
+    - docker run --rm sjourdan/terraform version | grep "v$(cat Dockerfile | grep 'ENV TERRAFORM_VERSION' | cut -f2 -d'=')"
