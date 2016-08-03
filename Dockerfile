@@ -1,6 +1,6 @@
 FROM alpine:latest
 MAINTAINER Stephane Jourdan <sjourdan@greenalto.com>
-ENV TERRAFORM_VERSION=0.7.0-rc4
+ENV TERRAFORM_VERSION=0.7.0
 VOLUME ["/data"]
 WORKDIR /data
 RUN apk --update --no-cache add ca-certificates openssl && \
