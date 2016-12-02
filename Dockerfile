@@ -1,9 +1,9 @@
-FROM alpine:latest
+FROM alpine:3.4
 LABEL name="terraform"
 LABEL version=0.8.0-rc2
 LABEL maintainer="Stephane Jourdan <fasten@fastmail.fm>"
 MAINTAINER Stephane Jourdan <sjourdan@greenalto.com>
-ENV TERRAFORM_VERSION=0.7.13
+ENV TERRAFORM_VERSION=0.8.0-rc2
 VOLUME ["/data"]
 WORKDIR /data
 RUN apk --update --no-cache add ca-certificates openssl && \
