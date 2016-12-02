@@ -7,4 +7,6 @@ dependencies:
     - make build
 test:
   override:
+    - docker run --rm -i lukasmartinelli/hadolint < Dockerfile
+    - docker run --rm -v $PWD:/root/ projectatomic/dockerfile-lint dockerfile_lint
     - docker run --rm sjourdan/terraform version | grep "v$(cat Dockerfile | grep 'ENV TERRAFORM_VERSION' | cut -f2 -d'=')"

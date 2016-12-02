@@ -1,4 +1,7 @@
 FROM alpine:latest
+LABEL name="terraform"
+LABEL version=0.8.0-rc2
+LABEL maintainer="Stephane Jourdan <fasten@fastmail.fm>"
 MAINTAINER Stephane Jourdan <sjourdan@greenalto.com>
 ENV TERRAFORM_VERSION=0.7.13
 VOLUME ["/data"]
@@ -8,4 +11,4 @@ RUN apk --update --no-cache add ca-certificates openssl && \
   unzip terraform.zip -d /bin && \
   rm -rf terraform.zip /var/cache/apk/*
 ENTRYPOINT ["/bin/terraform"]
-CMD [ "--help" ]
+CMD ["--help"]
