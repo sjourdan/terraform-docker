@@ -11,7 +11,8 @@ This container exists because I need to easily and quickly switch between variou
 
 ## Supported tags
 
--	[`0.8.0-rc3`, `latest` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0-rc3/Dockerfile)
+-	[`0.8.0`, `latest` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0/Dockerfile)
+-	[`0.8.0-rc3` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0-rc3/Dockerfile)
 -	[`0.8.0-rc2` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0-rc2/Dockerfile)
 -	[`0.8.0-rc1` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0-rc1/Dockerfile)
 -	[`0.8.0-beta2` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0-beta2/Dockerfile)
