@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 LABEL name="terraform"
 LABEL version=0.8.1
 LABEL maintainer="Stephane Jourdan <fasten@fastmail.fm>"
