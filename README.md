@@ -6,16 +6,19 @@ Terraform is a tool for building, changing, and versioning infrastructure safely
 
 This container exists because I need to easily and quickly switch between various specific versions of Terraform for different projects, and use the same linux binary whatever platform I'm using.
 
+Since April 2016, there's a Terraform [official Docker image](https://hub.docker.com/r/hashicorp/terraform/).
+
 - [Terraform Homepage](https://www.terraform.io/) and [Releases](https://releases.hashicorp.com/terraform/).
 - [Terraform on GitHub](https://github.com/hashicorp/terraform) and [Changelog](https://github.com/hashicorp/terraform/blob/master/CHANGELOG.md)
 
 ## Supported tags
 
--	[`0.8.7`, `latest` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.7/Dockerfile)
+-	[`0.8.8`, `latest` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.8/Dockerfile)
+-	[`0.8.7` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.7/Dockerfile)
 -	[`0.8.6` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.6/Dockerfile)
 -	[`0.8.5` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.5/Dockerfile)
 -	[`0.8.4` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.4/Dockerfile)
--	[`0.8.3`, (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.3/Dockerfile)
+-	[`0.8.3` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.3/Dockerfile)
 -	[`0.8.2` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.2/Dockerfile)
 -	[`0.8.1` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.1/Dockerfile)
 -	[`0.8.0` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.8.0/Dockerfile)
