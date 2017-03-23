@@ -71,6 +71,13 @@ And for another project you need the later `0.6.15` version:
 $ docker run -it --rm -v `pwd`:/data sjourdan/terraform:0.6.15
 ```
 
+If you want terraform to create files (when `terraform init` by example) using
+the current user id and not as `root`, add the `LOCAL_USER_ID` variable:
+
+```
+$ docker run -it --rm -v `pwd`:/data -e LOCAL_USER_ID=`id -u $USER` sjourdan/terraform:0.9.1 init
+```
+
 ## Known Bugs
 
 - `0.6.16` doesn't work because of [this issue](https://github.com/hashicorp/terraform/issues/6714)
