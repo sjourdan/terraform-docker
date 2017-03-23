@@ -10,6 +10,6 @@ RUN apk --update --no-cache add ca-certificates openssl sudo && \
   wget -O terraform.zip "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip" && \
   unzip terraform.zip -d /bin && \
   rm -rf terraform.zip /var/cache/apk/*
-ADD entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["--help"]
