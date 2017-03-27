@@ -5,6 +5,9 @@ PRODUCT=terraform
 build: ## Build Container
 	docker build -t $(DOCKER_USER)/$(PRODUCT) .
 
+dev:	## Build a dev version
+	docker build -t $(DOCKER_USER)/$(PRODUCT):dev -f Dockerfile.dev .
+
 lint: ## Lint Docker
 	docker run --rm -v $$PWD:/root/ projectatomic/dockerfile-lint dockerfile_lint
 	hadolint Dockerfile
