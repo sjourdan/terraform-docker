@@ -13,7 +13,8 @@ Since April 2016, there's a Terraform [official Docker image](https://hub.docker
 
 ## Supported tags
 
--	[`0.9.4`, `latest` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.9.4/Dockerfile)
+-	[`0.9.5`, `latest` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.9.5/Dockerfile)
+-	[`0.9.4` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.9.4/Dockerfile)
 -	[`0.9.3` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.9.3/Dockerfile)
 -	[`0.9.2` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.9.2/Dockerfile)
 -	[`0.9.1` (*Dockerfile*)](https://github.com/sjourdan/terraform-docker/blob/0.9.1/Dockerfile)
